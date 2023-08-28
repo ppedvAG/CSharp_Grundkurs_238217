@@ -1,4 +1,6 @@
-﻿namespace M001
+﻿using System.Threading.Channels;
+
+namespace M001
 {
 	internal class Program
 	{
@@ -20,6 +22,10 @@
 			x.ToString();
 
 			Math.Round(235879.2359789324, 2);
+
+			string s = x > 50 ? "x größer 50" : "x kleiner gleich 50"; //Links und rechts müssen Ergebnisse heraus kommen
+
+			//x > 50 ? Console.WriteLine(s) : Console.WriteLine(); //Nicht möglich
         }
 	}
 }
