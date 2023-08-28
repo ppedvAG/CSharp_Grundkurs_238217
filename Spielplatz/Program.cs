@@ -36,6 +36,23 @@ namespace M001
 
 			Rechner r = new Rechner();
 			r.Rechne();
-		}
+
+			(int, int) x = (1, 2);
+            Console.WriteLine(x.Item1);
+            Console.WriteLine(x.Item2);
+
+
+			//int.Parse("x");
+			//int result;
+			bool b = int.TryParse("12", out int result); //Verbindung zu result herstellen über out
+			if (b)
+			{
+				Console.WriteLine("Parsen funktioniert");
+			}
+			else
+			{
+                Console.WriteLine("Parsen hat nicht funktioniert");
+            }
+        }
 	}
 }
