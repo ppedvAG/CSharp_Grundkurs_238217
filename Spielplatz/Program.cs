@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using M008;
 
 namespace Spielplatz;
 
@@ -51,5 +52,15 @@ internal class Program
 		{
 			Console.WriteLine("Parsen hat nicht funktioniert");
 		}
+
+        Console.WriteLine(43268.4236879.ToString("N2"));
 	}
 }
+
+//public class Test : AccessModifier
+//{
+//    public Test()
+//    {
+
+//    }
+//}
