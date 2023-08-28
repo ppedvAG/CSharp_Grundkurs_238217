@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using Spielplatz;
+using System.Net;
 using System.Threading.Channels;
 
 namespace M001
@@ -15,9 +16,9 @@ namespace M001
 			//string eingabe = Console.ReadLine();
 			//Console.WriteLine($"Deine Eingabe ist: {eingabe}");
 
-			ConsoleKeyInfo info = Console.ReadKey();
-			Console.WriteLine(info.Key);
-			Console.WriteLine(info.Modifiers);
+			//ConsoleKeyInfo info = Console.ReadKey();
+			//Console.WriteLine(info.Key);
+			//Console.WriteLine(info.Modifiers);
 
 			int zahl = 3489;
 			zahl.ToString();
@@ -33,22 +34,8 @@ namespace M001
 				Console.WriteLine($"2^{i}={j}");
 			}
 
-			//Snippets
-			//cw: Console.WriteLine
-			//if: if
-			//for, forr, while, do, foreach: Schleifen
-
-			//Shortcuts
-			//Strg + .: Schnelloptionen unter dem Cursor
-			//Strg + Leertaste: Vorschläge öffnen
-			//Strg + K, Strg + D: Code formatieren
-			//Strg + K, Strg + C: Code auskommentieren
-			//Strg + K, Strg + U: Code einkommentieren
-			//Strg + R, Strg + R: Member umbenennen
-			//F12: Zur Definition springen
-			//Strg + D: Dupliziert die derzeitige Zeile
-			//Alt + Pfeiltasten: Zeile verschieben
-			//Alt + Maus ziehen: Multizeilencursor
+			Rechner r = new Rechner();
+			r.Rechne();
 		}
 	}
 }

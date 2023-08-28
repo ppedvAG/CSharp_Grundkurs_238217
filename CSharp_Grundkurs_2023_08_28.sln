@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spielplatz", "Spielplatz\Spielplatz.csproj", "{0DE5C695-B158-4FC0-BA55-28E71549055B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spielplatz", "Spielplatz\Spielplatz.csproj", "{0DE5C695-B158-4FC0-BA55-28E71549055B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grundkurs", "Grundkurs\Grundkurs.csproj", "{603C03E6-6D89-4722-9C94-2BB5FF7D96A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grundkurs", "Grundkurs\Grundkurs.csproj", "{603C03E6-6D89-4722-9C94-2BB5FF7D96A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

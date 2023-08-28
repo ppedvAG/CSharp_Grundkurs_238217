@@ -1,0 +1,17 @@
+﻿Snippets
+cw: Console.WriteLine
+if: if
+for, forr, while, do, foreach: Schleifen
+
+
+Shortcuts
+Strg + .: Schnelloptionen unter dem Cursor
+Strg + Leertaste: Vorschläge öffnen
+Strg + K, Strg + D: Code formatieren
+Strg + K, Strg + C: Code auskommentieren
+Strg + K, Strg + U: Code einkommentieren
+Strg + R, Strg + R: Member umbenennen
+F12: Zur Definition springen
+Strg + D: Dupliziert die derzeitige Zeile
+Alt + Pfeiltasten: Zeile verschieben
+Alt + Maus ziehen: Multizeilencursor
