@@ -57,6 +57,11 @@ internal class Program
 
 		Random w = new Random();
 		w.NextString(10);
+
+		if (w.GetType().GetInterface(nameof(ICloneable)) != null)
+		{
+
+		}
 	}
 }
 
