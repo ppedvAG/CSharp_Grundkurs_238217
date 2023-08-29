@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grundkurs", "Grundkurs\Grun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RechnerTests", "RechnerTests\RechnerTests.csproj", "{142F38FA-9692-4484-B214-0541CC7BBEB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqErweiterungsmethoden", "LinqErweiterungsmethoden\LinqErweiterungsmethoden.csproj", "{4893E010-9800-4E87-AA07-EBB44EF639CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{142F38FA-9692-4484-B214-0541CC7BBEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{142F38FA-9692-4484-B214-0541CC7BBEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{142F38FA-9692-4484-B214-0541CC7BBEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4893E010-9800-4E87-AA07-EBB44EF639CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4893E010-9800-4E87-AA07-EBB44EF639CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4893E010-9800-4E87-AA07-EBB44EF639CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4893E010-9800-4E87-AA07-EBB44EF639CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

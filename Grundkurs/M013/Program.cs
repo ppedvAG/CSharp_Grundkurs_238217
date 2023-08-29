@@ -104,23 +104,24 @@ internal class Program
 		//foreach (JsonElement element in doc.RootElement.EnumerateArray())
 		//{
 		//	Console.WriteLine(element.GetProperty("city").GetProperty("id").GetProperty("$numberLong").GetString()); //Einzelne Felder angreifen
+		//	Console.WriteLine(element.GetPropertyChain("city", "id", "$numberLong").GetString()); //Einzelne Felder angreifen
 		//}
 
 		//Newtonsoft.Json
-		//JsonSerializerSettings settings = new();
-		//settings.Formatting = Formatting.Indented;
+		JsonSerializerSettings settings = new();
+		settings.Formatting = Formatting.Indented;
 
-		//string json = JsonConvert.SerializeObject(fahrzeuge, settings);
-		//File.WriteAllText(filePath, json);
+		string json = JsonConvert.SerializeObject(fahrzeuge, settings);
+		File.WriteAllText(filePath, json);
 
-		//string readJson = File.ReadAllText(filePath);
-		//List<Fahrzeug> readFzg = JsonConvert.DeserializeObject<List<Fahrzeug>>(readJson, settings);
+		string readJson = File.ReadAllText(filePath);
+		List<Fahrzeug> readFzg = JsonConvert.DeserializeObject<List<Fahrzeug>>(readJson, settings);
 
-		//JToken doc = JToken.Parse(json);
-		//foreach (JToken token in doc)
-		//{
-		//	Console.WriteLine(token["city"]["id"]["$numberLong"].Value<string>());
-		//}
+		JToken doc = JToken.Parse(json);
+		foreach (JToken token in doc)
+		{
+			Console.WriteLine(token["city"]["id"]["$numberLong"].Value<string>());
+		}
 
 		//Xml
 		//XmlSerializer xml = new XmlSerializer(fahrzeuge.GetType());
