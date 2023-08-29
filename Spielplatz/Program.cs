@@ -34,7 +34,7 @@ internal class Program
 		}
 
 		Rechner r = new Rechner();
-		r.Rechne();
+		//r.Rechne();
 
 		(int, int) x = (1, 2);
 		Console.WriteLine(x.Item1);
@@ -54,6 +54,9 @@ internal class Program
 		}
 
         Console.WriteLine(43268.4236879.ToString("N2"));
+
+		Random w = new Random();
+		w.NextString(10);
 	}
 }
 
