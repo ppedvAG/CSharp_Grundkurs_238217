@@ -15,6 +15,8 @@ internal class Program
         Console.WriteLine(m.Jahresgehalt());
         Console.WriteLine(m.LohnProStunde(m.Gehalt));
 
+		//Polymorphismus kann zusätzlich zu Klassen über Interfaces ermöglicht werden
+		//Hier sind auch mehrere Interfaces möglich -> effektiv Mehrfachvererbung
 		IArbeit arbeit = m;
 		arbeit.Lohnauszahlung();
 
