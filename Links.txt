@@ -1,0 +1,21 @@
+UI
+Desktop
+ - Console (Win/MacOS/Linux) 
+ - WinForms (Win)
+ - > WPF (Win)
+ -  MAUI (Win/MacOS)
+ - https://www.electronjs.org/ (Win/MacOS/Linux)
+ - https://www.avaloniaui.net/ (Win/MacOS/Linux)
+ - https://gallery.platform.uno/ (Win/MacOS/Linux)
+Web
+ - ASP WebForms
+ - ASP.MVC
+ - ASP WebAPI + (Angular & React & HTMX)
+ - ASP Core Pages
+ - ASP Blazor
+
+
+https://grpc.io/docs/languages/csharp/
+https://referencesource.microsoft.com/
+
+https://devblogs.microsoft.com/dotnet/
