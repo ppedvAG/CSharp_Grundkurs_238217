@@ -1,3 +1,12 @@
+https://learn.microsoft.com/en-us/dotnet/architecture/modernize-desktop/example-migration
+https://dotnet.microsoft.com/en-us/platform/upgrade-assistant
+https://learn.microsoft.com/en-us/dotnet/standard/frameworks
+https://github.com/dotnet
+
+
+https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ef/language-reference/linq-to-entities
+https://learn.microsoft.com/en-us/ef/core/managing-schemas/scaffolding/?tabs=dotnet-core-cli#target-directories-and-namespaces
+
 https://github.com/ststeiger/ExpressProfiler
 
 
